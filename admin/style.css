@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+}
+
+header {
+    background: #69a3b9;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+nav {
+    background: white;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2b3d7a;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background: #e6f2e6;
+}
+
+.content {
+    padding: 20px;
+}
+
+.box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    padding: 6px 12px;
+    color: white;
+    background: #5880ee;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background:#4964af;
+}
+
+.btn-edit {
+    padding: 6px 12px;
+    color: white;
+    background: #54b0cc;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn-edit:hover {
+    background: #3e8397;
+}
+
+.btn-delete {
+    padding: 6px 12px;
+    color: white;
+    background: #54b0cc;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn-delete:hover {
+    background: #3e8397;
+}
+
+.action {
+    color: #5880ee;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.action:hover {
+    color: #4964af;
+}
+
+.form-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.form-box h2 {
+    margin-top: 0;
+    color: #2b3d7a;
+}
+
+.form-box label {
+    font-weight: bold;
+    color: #2b3d7a;
+    display: block;
+    margin: 10px 0 4px;
+}
+
+.form-box input,
+.form-box select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.form-box input:focus,
+.form-box select:focus {
+    outline: none;
+    border-color: #5880ee;
+    box-shadow: 0 0 5px rgba(88,128,238,0.4);
+}
+
+.form-submit {
+    width: 100%;
+    background: #5880ee;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.form-submit:hover {
+    background: #4964af;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background: #69a3b9;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+table td {
+    background: white;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover td {
+    background: #eef6f7;
+}
